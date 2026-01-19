@@ -58,6 +58,7 @@ There are two ways to see the output:
 	- Click `Monitor`
 After you click Monitor, you should see the output that you filled out in the code, and the ESP32 should be blinking.
 
+
 Note:
 - Ensure the baud rate is matched.
 ### Troubleshooting
