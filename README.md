@@ -68,6 +68,6 @@ If you see an error like `A fatal error occurred: Failed to connect to ESP32: T
     - When you see the text **Connecting...** in the terminal, **release** the BOOT button.
 - Check your Cable: Ensure you are not using a "charge-only" cable. Try a different USB cable.
 
-### Reference
+### References
 - [Adafruit Website](https://learn.adafruit.com/adafruit-esp32-feather-v2/blink)
 - [How to setup PlatformIO with VScode](https://www.youtube.com/watch?v=3ATDCi4ApY4)
