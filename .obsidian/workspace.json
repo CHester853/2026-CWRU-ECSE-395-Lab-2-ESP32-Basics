@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Skeleton Code.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Skeleton Code"
+              "title": "README"
             }
           }
         ],
@@ -200,7 +200,7 @@
   },
   "active": "67768d74591efcf9",
   "lastOpenFiles": [
-    "README.md",
-    "Skeleton Code.md"
+    "Skeleton Code.md",
+    "README.md"
   ]
 }

@@ -64,7 +64,7 @@ After you click Monitor, you should see the output that you filled out in the co
 
 Note:
 - Ensure the baud rate is matched.
-### Troubleshootings
+### Troubleshooting
 If you see an error like `A fatal error occurred: Failed to connect to ESP32: Timed out...`:
 - Hold the **BOOT** Button
     - Press and hold the BOOT button on your ESP32 board.
@@ -76,6 +76,7 @@ If you see an error like `A fatal error occurred: Failed to connect to ESP32: T
 	- Under `platformoi.ini`
 		- If there is no `monitor_speed = XXXXX`, please add it.
 		- `XXXXX` needs to match your baud rate in your code
+	- If there is no change in the serial monitor, you have to kill the old one first.
 
 ### References
 - [Adafruit Website](https://learn.adafruit.com/adafruit-esp32-feather-v2/blink)
