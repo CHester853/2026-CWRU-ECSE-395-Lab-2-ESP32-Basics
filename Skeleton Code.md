@@ -24,7 +24,7 @@ void loop() {
 
 - Notes:
 	- Please uncomment the necessary line and fill in the blank to complete the assignment.
-	- If it gives you an error `LED_BUILTIN' was not declared in this scope`.
+	- If it gives you an error `LED_BUILTIN was not declared in this scope` or any other error.
 		- Use `#define LED_PIN 13` instead.
 	- In `Serial.begin(_____);`
 		- `115200` is recommended, but feel free to try it at other baud rates.
