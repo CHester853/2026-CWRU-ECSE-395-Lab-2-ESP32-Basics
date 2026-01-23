@@ -54,20 +54,28 @@ Once everything are prepared.
 There are two ways to see the output:
 - Blue Status Bar
 	- Click the `Plug Icon`
-- Sidebar
-	- Click `Monitor`
+- Sidebar under:
+	- Click the `PlatformIO Icon`
+	- Under Project Tasks
+		- Under `General`
+			- Click `Monitor`
 After you click Monitor, you should see the output that you filled out in the code, and the ESP32 should be blinking.
 
 
 Note:
 - Ensure the baud rate is matched.
-### Troubleshooting
+### Troubleshootings
 If you see an error like `A fatal error occurred: Failed to connect to ESP32: Timed out...`:
 - Hold the **BOOT** Button
     - Press and hold the BOOT button on your ESP32 board.
     - Click the **Upload** arrow in VS Code.
     - When you see the text **Connecting...** in the terminal, **release** the BOOT button.
 - Check your Cable: Ensure you are not using a "charge-only" cable. Try a different USB cable.
+- If you see an output as a strange icon, please check the `monitor_speed`
+	- Go to **Explorer**
+	- Under `platformoi.ini`
+		- If there is no `monitor_speed = XXXXX`, please add it.
+		- `XXXXX` needs to match your baud rate in your code
 
 ### References
 - [Adafruit Website](https://learn.adafruit.com/adafruit-esp32-feather-v2/blink)
