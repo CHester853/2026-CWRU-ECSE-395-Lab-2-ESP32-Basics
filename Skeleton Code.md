@@ -2,7 +2,7 @@
 #include <Arduino.h>
 // This is required in PlatformIO but hidden in the standard Arduino IDE.
 
-int led = LED_BUILTIN;
+#define LED_PIN 13
 
 void setup() {
   pinMode(LED_PIN, OUTPUT);
@@ -24,8 +24,6 @@ void loop() {
 
 - Notes:
 	- Please uncomment the necessary line and fill in the blank to complete the assignment.
-	- If it gives you an error `LED_BUILTIN was not declared in this scope` or any other error.
-		- Use `#define LED_PIN 13` instead.
 	- In `Serial.begin(_____);`
 		- `115200` is recommended, but feel free to try it at other baud rates.
 		- Baud rate is the speed of data transmission, measuring the number of signal changes per second in communication channel.
